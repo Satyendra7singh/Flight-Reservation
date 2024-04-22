@@ -1,0 +1,37 @@
+2024-02-19T05:36:51.349+05:30  INFO 18532 --- [main] c.s.f.FlightreservationApplication       : Starting FlightreservationApplication using Java 17.0.10 with PID 18532 (C:\Spring FrameWork Revision\flightreservation\target\classes started by Akhilesh kumar in C:\Spring FrameWork Revision\flightreservation)
+2024-02-19T05:36:51.354+05:30  INFO 18532 --- [main] c.s.f.FlightreservationApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T05:36:52.971+05:30  INFO 18532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T05:36:53.417+05:30  INFO 18532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 302 ms. Found 4 JPA repository interfaces.
+2024-02-19T05:36:54.501+05:30  INFO 18532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T05:36:54.534+05:30  INFO 18532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T05:36:54.535+05:30  INFO 18532 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T05:36:55.153+05:30  INFO 18532 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-02-19T05:36:55.178+05:30  INFO 18532 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T05:36:55.179+05:30  INFO 18532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3705 ms
+2024-02-19T05:36:55.414+05:30  INFO 18532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T05:36:55.876+05:30  INFO 18532 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dc68586
+2024-02-19T05:36:55.886+05:30  INFO 18532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T05:36:56.117+05:30  INFO 18532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T05:36:56.323+05:30  INFO 18532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T05:36:56.443+05:30  INFO 18532 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T05:36:57.134+05:30  INFO 18532 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T05:37:00.036+05:30  INFO 18532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T05:37:00.048+05:30  INFO 18532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T05:37:00.652+05:30  INFO 18532 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-19T05:37:01.883+05:30  WARN 18532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T05:37:01.961+05:30  INFO 18532 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2024-02-19T05:37:02.899+05:30  INFO 18532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/flightreservation'
+2024-02-19T05:37:02.951+05:30  INFO 18532 --- [main] c.s.f.FlightreservationApplication       : Started FlightreservationApplication in 12.503 seconds (process running for 14.174)
+2024-02-19T05:37:03.506+05:30  INFO 18532 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T05:37:03.508+05:30  INFO 18532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T05:37:03.512+05:30  INFO 18532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-19T05:37:03.632+05:30  INFO 18532 --- [http-nio-8080-exec-1] c.s.f.controllers.UserController         : Inside showLoginPage()
+2024-02-19T05:37:05.659+05:30  WARN 18532 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+2024-02-19T05:37:14.957+05:30  INFO 18532 --- [http-nio-8080-exec-2] c.s.f.controllers.UserController         : Inside login() and the email is:satyasingh@gmail.com
+2024-02-19T05:37:25.846+05:30  INFO 18532 --- [http-nio-8080-exec-3] c.s.f.controllers.FlightController       : Inside findFlights()From:AUSTo:NYC
+2024-02-19T05:37:26.850+05:30  INFO 18532 --- [http-nio-8080-exec-3] c.s.f.controllers.FlightController       : Flight found are:[Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 08:44:07.0], Flight [flightNumber=AA2, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 10:44:07.0], Flight [flightNumber=AA3, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 11:44:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 12:44:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-06 00:00:00.0, estimatedDepartureTime=2018-02-06 12:44:07.0], Flight [flightNumber=SW2, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-06 00:00:00.0, estimatedDepartureTime=2018-02-06 13:44:07.0]]
+2024-02-19T05:37:30.279+05:30  INFO 18532 --- [http-nio-8080-exec-4] c.s.f.controllers.ReservationController  : Inside showCompleteResrvation()FlightId1
+2024-02-19T05:39:17.158+05:30  INFO 18532 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-19T05:39:17.201+05:30  INFO 18532 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T05:39:17.204+05:30  INFO 18532 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T05:39:17.220+05:30  INFO 18532 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
